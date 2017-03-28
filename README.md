@@ -29,3 +29,8 @@ Good luck!
 :smile:
 
 Special thanks to [@mgolisch](https://github.com/mgolisch), [@happyleavesaoc](https://github.com/happyleavesaoc)
+
+
+Big picture:
+
+![Big Picture](https://raw.githubusercontent.com/skalavala/smarthome/master/images/MultiroomAudioSystem-Kalavala.jpg)
