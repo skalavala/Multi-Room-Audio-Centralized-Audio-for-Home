@@ -3,7 +3,7 @@
 I have always wanted to have a centralized audio system for my home. Since my home is currently not wired for that, I decided to maky my own "wireless" centralized audio system using nothing but Raspberry Pi's and some {cheap} bluetooth speakers from amazon and leverage any old speakers lying at home that can be plugged into a 3.5mm audio jack. It works great, and I enjoy the whole house music system thoroughl. I documented all the steps that I did at my home, hoping it will come in handy for others who is thinking of doing the same.
 
 ## Software Components 
-I use Mopidy, Snapcast server and client software(s) to achieve this functionality. The Mopidy is just a media player, and the output of the mopidy is directed to a pipe, where the Snapcast server is listening to. When any audio/music content is streamed to that pipe, Snapcast server receives the media, and broascasts to all of it's clients (snapcast clients) accordingly.
+I used Mopidy, Snapcast server and client software(s) to achieve this functionality. The Mopidy is just a media player, and the output of the mopidy is directed to a pipe, where the Snapcast server is listening to. When any audio/music content is streamed to that pipe, Snapcast server receives the media, and broascasts to all of it's clients (snapcast clients) accordingly.
 
 If you are not familiar with Mopidy, I highly recommend you to read all about it here --> [Mopidy Docs](https://docs.mopidy.com/en/latest/) or [Mopidy Home Page](https://www.mopidy.com/)
 
