@@ -19,6 +19,6 @@ All Raspberry Pis are connected to corresponding speakers (possibly in each room
 All set! That's all there is to it! Enjoy the whole house audio system, play music, connect to home assistant, and make announcements, notifications, write a program that pulls headlines/breaking news from news sites; call amazon polly and play the tts audio, or even connect to online radio channels! Sky is the limit! 
 
 Good luck!
-:smile: 
+:smile:
 
-Special thanks to [@mgolisch](https://github.com/mgolisch) , [@happyleavesaoc](https://github.com/happyleavesaoc)
+Special thanks to [@mgolisch](https://github.com/mgolisch), [@happyleavesaoc](https://github.com/happyleavesaoc)
