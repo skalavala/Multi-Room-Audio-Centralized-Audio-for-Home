@@ -8,8 +8,8 @@ The ideal set up would be to install Mopidy, Snapcast Server and Snapcast client
 
 1. [Install Mopidy](https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/Install%20Mopidy.md)
 
-2. [Install Snapcast Server] (https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/Install%20Snapcast%20Server.md)
+2. [Install Snapcast Server](https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/Install%20Snapcast%20Server.md)
 
-3. [Install Snapcast client on each Raspberry Pi] (https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/Install%20Snapcast%20Client.md)
+3. [Install Snapcast client on each Raspberry Pi](https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/Install%20Snapcast%20Client.md)
 
-4. [Setting up PulseAudio] (https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/Setup%20Pulseaudio.md)
+4. [Setting up PulseAudio](https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/Setup%20Pulseaudio.md)
