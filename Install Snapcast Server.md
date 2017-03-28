@@ -2,7 +2,7 @@
 
 The easiest part in the whole set up is installing Snapcast server and client components.
 
-Before executing the commands, go to <a href="https://github.com/badaix/snapcast/releases" targer="_blank">https://github.com/badaix/snapcast/releases</a> and copy the location of the latest snapserver installer file. The Installer file for Raspberry Pi usually has `armhf` in it as the RPis have arm processors.
+Before executing the commands, go to <a href="https://github.com/badaix/snapcast/releases" targer="_blank">Download Snapserver</a> and copy the location of the latest snapserver installer file. The Installer file for Raspberry Pi usually has `armhf` in it as the RPis have arm processors.
 
 Make sure you update file name in the command below `snapclient_x.xx.x_armhf.deb` below and execute the command.
 
