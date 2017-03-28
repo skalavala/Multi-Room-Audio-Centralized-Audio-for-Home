@@ -4,7 +4,7 @@ I have always wanted to have a centralized audio system for my home, since my ho
 
 I use Mopidy, Snapcast server and client software(s) to achieve this functionality. The Mopidy is just a media player, and the output of the mopidy is directed to a pipe, where the Snapcast server is listening to. When any audio/music content is streamed to that pipe, Snapcast server receives the media, and broascasts to all of it's clients (snapcast clients) accordingly.
 
-The ideal set up would be to install Mopidy, Snapcast Server and Snapcast client on one Raspberry Pi, and use other Raspberry Pis as clients - where it will pnly have Snapclient software running on it.
+The ideal set up would be to install Mopidy, Snapcast Server and Snapcast client on one Raspberry Pi, and use other Raspberry Pis as clients - where it will only have Snapclient software running on it.
 
 All Raspberry Pis are connected to corresponding speakers (possibly in each room) using 3.5mm audio jack. In my case, those Raspberry Pis are either behind the couch, or under the bed hidden, but always powered. The bluetooth speakers can be powered from Raspberry Pi itself - just make sure you have the right power supply that has at least 2.5 amps.
 
