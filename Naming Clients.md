@@ -1,13 +1,25 @@
-## Giving custom names in the Server
+## Setting up Custom Snapcast Client Names
 
-After installing snapcast client software, and connected to the server, the server assigns default names to each client. The default names can be changed by editing the following file:
-/var/lib/snapcast/server.json
+After setting up snapcast clients, they automatically connect to the server - as long as bth server and clients are in the same network/subnet. When a snapcast client gets connected to the snapcast server, the server automatically assigns "defaul"t names to each client. Those default names can be changed by editing the following file on the Raspberry Pi that is running Snapcast Server.
 
-Before edit the file, make sure you shut down the snap server first, otherwise the changes will be overwritten by the server.
+First, you need to stop Snapcast Server, otherwise the setting will be overridden by the server.
 
-To shut down the snapcast server, run the following command
+```
 sudo service stop snapserver
+```
 
+```
 vi /var/lib/snapcast/server.json
+```
 
-Change the names of each client in the JSON file: config -> name
+Change the names of each client in the JSON file: look for path `config` -> `name`
+
+Start snapserver after making changes:
+
+```
+sudo service start snapserver
+```
+
+The clients will automatically connect when the server is available.
+
+[Back to home page](README.md)
