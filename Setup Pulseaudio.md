@@ -1,5 +1,7 @@
 ## Setup PulseAudio
 
+You need to set up Pulse Audio in every Raspberry Pi that plays music to the connected speaker. I set up PulseAudio by default in every Raspberry Pi as my initial set up.
+
 To install the necessary files, run the following command first
 ```
 sudo apt-get install pulseaudio pulseaudio-module-zeroconf alsa-utils avahi-daemon
