@@ -182,4 +182,8 @@ After scanning the media, restart mopidy using the following command to reflect 
 sudo service mopidy restart
 ```
 
-Go to [next step](http://www.google.com) or go to [home page](http://www.google.com)
+
+
+
+
+[Back to home page](README.md)
