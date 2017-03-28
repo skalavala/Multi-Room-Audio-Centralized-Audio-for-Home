@@ -16,6 +16,8 @@ All Raspberry Pis are connected to corresponding speakers (possibly in each room
 
 4. [Setting up PulseAudio](https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/Setup%20Pulseaudio.md)
 
+5. [Setting Snapcast Client Names](http://www.google.com)  
+
 All set! That's all there is to it! Enjoy the whole house audio system, play music, connect to home assistant, and make announcements, notifications, write a program that pulls headlines/breaking news from news sites; call amazon polly and play the tts audio, or even connect to online radio channels! Sky is the limit! 
 
 Good luck!
