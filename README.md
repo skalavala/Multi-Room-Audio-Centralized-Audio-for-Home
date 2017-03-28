@@ -6,10 +6,10 @@ I use Mopidy, Snapcast server and client software(s) to achieve this functionali
 
 The ideal set up would be to install Mopidy, Snapcast Server and Snapcast client on one Raspberry Pi, and use other Raspberry Pis as clients - where it will pnly have Snapclient software running on it.  
 
-* [Install Mopidy](https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/Install%20Mopidy.md)
+1. [Install Mopidy](https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/Install%20Mopidy.md)
 
-* Install Snapcast Server
+2. [Install Snapcast Server] (https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/Install%20Snapcast%20Server.md)
 
-* Install Snapcast client on each Raspberry Pi
+3. [Install Snapcast client on each Raspberry Pi] (https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/Install%20Snapcast%20Client.md)
 
-* Setting up PulseAudio
+4. [Setting up PulseAudio] (https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/Setup%20Pulseaudio.md)
