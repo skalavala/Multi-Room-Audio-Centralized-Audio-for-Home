@@ -20,3 +20,5 @@ All set! That's all there is to it! Enjoy the whole house audio system, play mus
 
 Good luck!
 :smile: 
+
+Special thanks to [@mgolisch](https://github.com/mgolisch) , [@happyleavesaoc](https://github.com/happyleavesaoc)
