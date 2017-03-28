@@ -47,7 +47,7 @@ alsamixer
 or 
 
 ```
-amixer set ‘PCM’ 100% unmute
+amixer set 'PCM' 100% unmute
 ```
 
 or
