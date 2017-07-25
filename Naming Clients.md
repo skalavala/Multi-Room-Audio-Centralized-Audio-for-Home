@@ -5,7 +5,7 @@ After setting up snapcast clients, they automatically connect to the server - as
 First, you need to stop Snapcast Server, otherwise the setting will be overridden by the server.
 
 ```
-sudo service stop snapserver
+sudo service snapserver stop
 ```
 
 ```
@@ -17,7 +17,7 @@ Change the names of each client in the JSON file: look for path `config` -> `nam
 Start snapserver after making changes:
 
 ```
-sudo service start snapserver
+sudo service snapserver start
 ```
 
 The clients will automatically connect when the server is available.
