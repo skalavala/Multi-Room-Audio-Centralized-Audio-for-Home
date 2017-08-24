@@ -4,7 +4,7 @@ You need to set up Pulse Audio in every Raspberry Pi that plays music to the con
 
 To install the necessary files, run the following command first
 ```
-sudo apt-get install pulseaudio pulseaudio-module-zeroconf alsa-utils avahi-daemon
+sudo apt-get install pulseaudio pulseaudio-module-zeroconf alsa-utils avahi-daemon -y
 ```
 
 To enable ALSA:
