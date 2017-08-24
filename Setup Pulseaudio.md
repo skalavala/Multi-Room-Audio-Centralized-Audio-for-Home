@@ -56,6 +56,6 @@ or
 amixer set 'Master' 100% unmute
 ```
 
-That's it! You have just enables and configured Pulse Audio driver, and your Raspberry Pi is ready to play audio through the sound card.
+That's it! You have just enabled and configured Pulse Audio driver, and your Raspberry Pi is ready to play audio through the sound card.
 
 [Back to home page](README.md)
