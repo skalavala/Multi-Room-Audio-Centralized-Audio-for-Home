@@ -21,6 +21,8 @@ All Raspberry Pis are connected to corresponding speakers (possibly in each room
 
 5. [Setting Snapcast Client Names](https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/Naming%20Clients.md)  
 
+6. **Optional** [Enable Airplay](https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/airplay.md)
+
 All set! That's all there is to it! Enjoy the whole house audio system, play music, connect to home assistant, and make announcements, notifications, write a program that pulls headlines/breaking news from news sites; call amazon polly and play the tts audio, or even connect to online radio channels! Sky is the limit! 
 
 Optionally, you can also install Mopidy Web Extensions and access Spotify playlists. This Mopidy (mpd) can also be integrated into [Home Assistant (HA)](http://www.home-assistant.io) and see all the media players on the dashboard. Currently, HA only supports older vesions of Snapcast server and clients. 
