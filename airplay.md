@@ -1,6 +1,6 @@
 # Enable AirPlay on your Multi-room Audio System
 
-I use shairport-sync (`https://github.com/mikebrady/shairport-sync`) to enable airplay, so that I can stream YouTube and other content straight to my multi-room audio setup.
+I use shairport-sync (`https://github.com/mikebrady/shairport-sync`) to enable airplay, so that I can stream YouTube (only audio) and other content straight to my multi-room audio setup.
 
 The set is pretty straight forward, you just need to install `shairport-sync` libraries on your machine using the following command
 ```
