@@ -4,13 +4,15 @@
 
 ## Prelude
 
-I have one too many Raspberry Pis at home, and I always wanted an easy/laze way to do some basic management without having to log into each of the Raspberry Pis. This will come in handy for situations where you want to restart all the Raspberry Pis at once, or simply want to restart snapcast client service on all the raspberry Pis...etc This will save you lots of time individually loggin onto each of the Raspberry Pi, issue commands. 
+I have one too many Raspberry Pis at home, and I always wanted an easy/lazy way to do some basic management without having to log into each of the Raspberry Pis. This will come in handy for situations where you want to restart all the Raspberry Pis at once, or simply want to restart snapcast client service on all the raspberry Pis...etc This will save you lots of time individually logging into each of the Raspberry Pi, and issue commands. Another big use of this is the automation, which you will find more in my [Github Repo](https://github.com/skalavala/smarthome) 
 
-I wrote a basic python program that is deployed to the Raspberry Pi (this one happened to be located in Kitchen). The program is run as a "Service", so that it runs forever. What this program does is, it listens for specific commands in MQTT on a topic, called "/server/pi_kitchen". whatever the command is published to that topic, it executes it... not any random command, but only the pre-defined commands - like Restart Server, Shutdown Pi, Restart Snapcast Client, give me the status of WiFi signal, Give me the stats of disk...etc.
+I wrote a basic python program that is deployed to each of the Raspberry Pi (this one happened to be deployed to a raspberry Pi that is  located in the Kitchen). The program is run as a "Service", so that it runs forever (keeps running automatically after restarts). 
 
-The same code is deployed to every Raspberry Pi, with the modified topic - for ex, if the code is deployed to `pi_familyroom` Raspberry Pi, the topic name would be `pi_familyroom` instead of `pi_kitchen`.
+What this program does is, it listens for specific commands in MQTT on a topic, called "/server/pi_kitchen". whatever the command is published to that topic, it executes it... not just any random command, ONLY pre-defined commands - like Restart Server, Shutdown Pi, Restart Snapcast Client, give me the status of WiFi signal, Give me the stats of disk...etc. You can expand the command list or change to fit your needs.
 
-Not all commands return data - for ex: `Restart Raspberry Pi` just simply restarts, whereas `Get WiFi Info` returns WiFi data in a JSON format. That's all this code does. 
+The same code is deployed to every Raspberry Pi, with the modified topic names - for ex, if the code is deployed to `pi_familyroom` Raspberry Pi, the topic name would be `pi_familyroom` instead of `pi_kitchen`.
+
+Not all commands return data - for ex: `Restart Raspberry Pi` just simply restarts, whereas `Get WiFi Info` returns WiFi data in a JSON format. That's pretty much all this code does. The power comes when you integrate this with other automation stuff.
 
 ## Prerequisites
 You need Python and Python MQTT libraries for this code to work. To install `Paho MQTT` - python library for MQTT, run the following command.
