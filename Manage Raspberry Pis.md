@@ -1,8 +1,12 @@
-## Basic Management of RPi using Home Assistant or MQTT
+## Basic Raspberry Pi administration using  MQTT
 
 ![My Home Assistant View](https://raw.githubusercontent.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/master/images/image.png)
 
-The following is a python code that is deployed to the Raspberry Pi (that happened to be located in Kitchen). The program is run as a "Service", so that it runs forever. What this program does is, it listens for specific commands in MQTT on a topic, called "/server/pi_kitchen". whatever the command is published to that topic, it executes it... not any random command, but only the pre-defined commands - like Restart Server, Shutdown Pi, Restart Snapcast Client, give me the status of WiFi signal, Give me the stats of disk...etc.
+## Prelude
+
+I have one too many Raspberry Pis at home, and I always wanted an easy/laze way to do some basic management without having to log into each of the Raspberry Pis. This will come in handy for situations where you want to restart all the Raspberry Pis at once, or simply want to restart snapcast client service on all the raspberry Pis...etc This will save you lots of time individually loggin onto each of the Raspberry Pi, issue commands. 
+
+I wrote a basic python program that is deployed to the Raspberry Pi (this one happened to be located in Kitchen). The program is run as a "Service", so that it runs forever. What this program does is, it listens for specific commands in MQTT on a topic, called "/server/pi_kitchen". whatever the command is published to that topic, it executes it... not any random command, but only the pre-defined commands - like Restart Server, Shutdown Pi, Restart Snapcast Client, give me the status of WiFi signal, Give me the stats of disk...etc.
 
 The same code is deployed to every Raspberry Pi, with the modified topic - for ex, if the code is deployed to `pi_familyroom` Raspberry Pi, the topic name would be `pi_familyroom` instead of `pi_kitchen`.
 
@@ -189,3 +193,4 @@ If you check my github repo, I have a package [https://github.com/skalavala/smar
 I also like to point out that there are many wayc of achieving the same. This is just one simple way :)
 
 Good luck!
+
