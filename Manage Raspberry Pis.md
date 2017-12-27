@@ -1,6 +1,6 @@
 ## Basic Management of RPi using Home Assistant or MQTT
 
-The following is a python code that is deployed to the Raspberry Pi that is located in Kitchen. The program is run as a "Service", so that it runs forever. What this program does is, it listens for specific commands on a topic, called "/server/pi_kitchen". whatever the command is published to that topic, it executes it... not any random command, but only the pre-defined commands - like Restart Server, Shutdown Pi, Restart Snapcast Client, give me the status of WiFi signal, Give me the stats of disk...etc.
+The following is a python code that is deployed to the Raspberry Pi (that happened to be located in Kitchen). The program is run as a "Service", so that it runs forever. What this program does is, it listens for specific commands in MQTT on a topic, called "/server/pi_kitchen". whatever the command is published to that topic, it executes it... not any random command, but only the pre-defined commands - like Restart Server, Shutdown Pi, Restart Snapcast Client, give me the status of WiFi signal, Give me the stats of disk...etc.
 
 The same code is deployed to every Raspberry Pi, with the modified topic - for ex, if the code is deployed to `pi_familyroom` Raspberry Pi, the topic name would be `pi_familyroom` instead of `pi_kitchen`.
 
