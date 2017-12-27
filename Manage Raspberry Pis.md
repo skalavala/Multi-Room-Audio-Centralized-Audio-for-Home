@@ -123,6 +123,8 @@ while rc == 0:
 print("MQTT Return Code: " + str(rc))
 ```
 
+### Note: If you copy the file, make sure you change MQTT Server IP, Port, Username and Password and any other hard coded stuff. 
+
 ## Running as Service
 To run the python program as a service on Raspberry Pi, you need to create a file  I name this as `raspi-client.service` in `/etc/systemd/system` folder.
 
