@@ -63,7 +63,7 @@ def on_message(mosq, userdata, msg):
             data['Signal Level'] = str_list[3].split('=')[1]
             mosq.publish(MQTT_WIFI_TOPIC, payload=json.dumps(data), qos=0, retain=False)
         except subprocess.CalledProcessError:
-            print("Command failed: %s", command)
+            print("Failed to run the command: iwconfig wlan0 | grep -i signal")
     elif(str(msg.payload) == "CMD_REPORT_DISK_DETAILS"):
         try:
             data = {}
@@ -77,7 +77,7 @@ def on_message(mosq, userdata, msg):
             data['% Used'] = str_list[4]
             mosq.publish(MQTT_DISK_TOPIC, payload=json.dumps(data), qos=0, retain=False)
         except subprocess.CalledProcessError:
-            print("Command failed: %s", command)
+            print("Failed to run the command: df -h | grep /dev/root")
     else:
         print("Unknown command")
 
