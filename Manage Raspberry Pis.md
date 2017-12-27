@@ -1,5 +1,7 @@
 ## Basic Management of RPi using Home Assistant or MQTT
 
+![My Home Assistant View](https://raw.githubusercontent.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/master/images/image.png)
+
 The following is a python code that is deployed to the Raspberry Pi (that happened to be located in Kitchen). The program is run as a "Service", so that it runs forever. What this program does is, it listens for specific commands in MQTT on a topic, called "/server/pi_kitchen". whatever the command is published to that topic, it executes it... not any random command, but only the pre-defined commands - like Restart Server, Shutdown Pi, Restart Snapcast Client, give me the status of WiFi signal, Give me the stats of disk...etc.
 
 The same code is deployed to every Raspberry Pi, with the modified topic - for ex, if the code is deployed to `pi_familyroom` Raspberry Pi, the topic name would be `pi_familyroom` instead of `pi_kitchen`.
@@ -183,5 +185,7 @@ Now that you have a python program on your Raspberry Pi, that connects to the MQ
 Now that you have a base framework, you can modify the commands, add/remove and change topic names, whatever suits your needs. 
 
 If you check my github repo, I have a package [https://github.com/skalavala/smarthome/blob/master/packages/pi_admin.yaml](https://github.com/skalavala/smarthome/blob/master/packages/pi_admin.yaml) that shows you how to run commands and show WiFi and Disk information and have automations based on the data... If your RPi is running out of disk space, you can get an alert, of if the WiFi signal is too weak... or anything you like! 
+
+I also like to point out that there are many wayc of achieving the same. This is just one simple way :)
 
 Good luck!
