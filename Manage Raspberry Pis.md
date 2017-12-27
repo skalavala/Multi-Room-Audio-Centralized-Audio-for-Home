@@ -8,7 +8,7 @@ I have one too many Raspberry Pis at home, and I always wanted an easy/lazy way 
 
 I wrote a basic python program that is deployed to each of the Raspberry Pi (this one happened to be deployed to a raspberry Pi that is  located in the Kitchen). The program is run as a "Service", so that it runs forever (keeps running automatically after restarts). 
 
-What this program does is, it listens for specific commands in MQTT on a topic, called "/server/pi_kitchen". whatever the command is published to that topic, it executes it... not just any random command, ONLY pre-defined commands - like Restart Server, Shutdown Pi, Restart Snapcast Client, give me the status of WiFi signal, Give me the stats of disk...etc. You can expand the command list or change to fit your needs.
+What this program does is, it listens for specific commands in MQTT on a topic, called "/server/pi_kitchen". Whatever the command is published to that topic, it executes it... not just any random command, ONLY pre-defined commands - like Restart Server, Shutdown Pi, Restart Snapcast Client, Give me the status of WiFi signal, Give me the stats of disk...etc. You can expand the command list or change to fit your needs.
 
 The same code is deployed to every Raspberry Pi, with the modified topic names - for ex, if the code is deployed to `pi_familyroom` Raspberry Pi, the topic name would be `pi_familyroom` instead of `pi_kitchen`.
 
