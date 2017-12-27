@@ -139,6 +139,12 @@ RestartSec=5
 [Install]
 WantedBy=multi-user.target
 ```
+
+MAKE SURE YOU CHECK THE FILE NAME AND PATH... in my case, I named the python file as `pi_mqtt_cmds.py`, and it is located in `/home/pi/` folder, and the Python runtime is at `/usr/bin/python`.
+
+To check the location of your python executable, run `which python` command. THat should give you the full path.
+
+
 After saving the contents, make sure you reload the daemon config by running the code. This option is better than restarting RPi.
 
 ```
