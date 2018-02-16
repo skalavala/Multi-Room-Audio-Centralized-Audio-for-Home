@@ -6,7 +6,7 @@
 
 I have one too many Raspberry Pis at home, and I always wanted an easy/lazy way to do some basic management without having to log into each of the Raspberry Pis. This will come in handy for situations where you want to restart all the Raspberry Pis at once, or simply want to restart snapcast client service on all the raspberry Pis...etc This will save you lots of time individually logging into each of the Raspberry Pi, and issue commands. Another big use of this is the automation, which you will find more in my [Github Repo](https://github.com/skalavala/smarthome) 
 
-I wrote a basic python program that is deployed to each of the Raspberry Pi (this one happened to be deployed to a raspberry Pi that is  located in the Kitchen). The program is run as a "Service", so that it runs forever (keeps running automatically after restarts). 
+I wrote a basic python program that is deployed to each of the Raspberry Pi (this one happened to be deployed to a raspberry Pi that is  located in the Kitchen). The program runs as a `Daemon/Service`, it runs in thebackground, and automatically starts when the Raspberry Pi is restarted.
 
 What this program does is, it listens for specific commands in MQTT on a topic, called "/server/pi_kitchen". Whatever the command is published to that topic, it executes it... not just any random command, ONLY pre-defined commands - like Restart Server, Shutdown Pi, Restart Snapcast Client, Give me the status of WiFi signal, Give me the stats of disk...etc. You can expand the command list or change to fit your needs.
 
