@@ -23,7 +23,7 @@ All Raspberry Pis are connected to corresponding speakers (possibly in each room
 
 6. **Optional** [Enable Airplay](https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/airplay.md)
 
-7. **Optional** [Setup Virtual Sound Card on VMWare ESXi 6.0 or Above](https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/airplay.md)
+7. **Optional** [Setup Virtual Sound Card on VMWare ESXi 6.0 or Above](https://github.com/skalavala/Multi-Room-Audio-Centralized-Audio-for-Home/blob/master/vmware.md)
 
 All set! That's all there is to it! Enjoy the whole house audio system, play music, connect to home assistant, and make announcements, notifications, write a program that pulls headlines/breaking news from news sites; call amazon polly and play the tts audio, or even connect to online radio channels! Sky is the limit! 
 
@@ -36,3 +36,4 @@ Special thanks to [@mgolisch](https://github.com/mgolisch), [@happyleavesaoc](ht
 
 
 ![Big Picture](https://raw.githubusercontent.com/skalavala/smarthome/master/images/MultiroomAudioSystem-Kalavala.jpg)
+
