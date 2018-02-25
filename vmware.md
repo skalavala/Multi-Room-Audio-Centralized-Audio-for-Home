@@ -14,3 +14,5 @@ sound.fileName = "-1"
 sound.autodetect = "true"
 ```
 **Make sure** you make a backup of the file before modifying. After making changes, restart the Host, and  `hdaudio` will be visible in the host configuration settings.
+
+[Back to home page](README.md)
