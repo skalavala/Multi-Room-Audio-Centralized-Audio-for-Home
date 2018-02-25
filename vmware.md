@@ -1,4 +1,4 @@
-## Setup Virtual Sound Card on ESXi
+## Settingup Virtual Sound Card on ESXi
 
 I run Ubuntu Server as a host on VMware (ESXi 6.5). Since I have a DELL PowerEdge Server, by default servers don't come with sound card, and from VMWare 6.0 onwards (I think) there is no support for virtual sound card. To enable virtual sound card running on ESXi 6.5, log in to your ESXi server using SSH, and add the following content to the  `.vmx` file. 
 
