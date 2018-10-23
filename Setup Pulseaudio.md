@@ -25,6 +25,11 @@ and uncomment the two lines lines
 load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1;192.168.0.0/16
 load-module module-zeroconf-publish
 ```
+while you are in that file, remove or comment the line:
+```
+load-module module-suspend-on-idle
+```
+This prevents PulseAudio from sending the audio hardware to sleep.
 
 To start the pulseaudio server, run:
 ```
@@ -57,5 +62,9 @@ amixer set 'Master' 100% unmute
 ```
 
 That's it! You have just enabled and configured Pulse Audio driver, and your Raspberry Pi is ready to play audio through the sound card.
+
+## Troubleshooting
+
+If you are running into issues, yu may want to visit [https://fedoraproject.org/wiki/How_to_debug_PulseAudio_problems](https://fedoraproject.org/wiki/How_to_debug_PulseAudio_problems)
 
 [Back to home page](README.md)
