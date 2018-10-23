@@ -65,6 +65,25 @@ That's it! You have just enabled and configured Pulse Audio driver, and your Ras
 
 ## Troubleshooting
 
+### Is your Pulse Audio skipping the audio?
+
+In /etc/pulse/default.pa, replace the line:
+
+```
+load-module module-hal-detect
+```
+with:
+```
+load-module module-hal-detect tsched=0 
+```
+Or:
+
+load-module module-udev-detect
+with:
+```
+load-module module-udev-detect tsched=0 
+```
+
 If you are running into issues, yu may want to visit [https://fedoraproject.org/wiki/How_to_debug_PulseAudio_problems](https://fedoraproject.org/wiki/How_to_debug_PulseAudio_problems)
 
 [Back to home page](README.md)
