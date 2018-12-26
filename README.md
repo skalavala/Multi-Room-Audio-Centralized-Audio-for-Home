@@ -11,7 +11,7 @@ The following hardware is all you need in order to make your own WiFi based mult
 <a href="http://amzn.to/2p9RVhQ"><img src="https://raw.githubusercontent.com/skalavala/skalavala.github.io/master/images/rpi3.jpg" alt="Raspberry Pi 3" /></a>
     </td>
     <td>
-<a href="http://amzn.to/2p9RVhQ"><img src="https://raw.githubusercontent.com/skalavala/skalavala.github.io/master/images/rpi-power.jpg" alt="Raspberry Pi 3 power Supply" /></a>
+<a href="https://amzn.to/2VcAPMk"><img src="https://raw.githubusercontent.com/skalavala/skalavala.github.io/master/images/rpi-power.jpg" alt="Raspberry Pi 3 power Supply" /></a>
     </td>    
     <td>
 <a href="https://amzn.to/2Vj7iAW"><img src="https://raw.githubusercontent.com/skalavala/skalavala.github.io/master/images/audio-cable.jpg" alt="3.5mm Audio Cable" /></a>
@@ -21,10 +21,10 @@ The following hardware is all you need in order to make your own WiFi based mult
     </td>
   </tr>
   <tr>
-    <td>Raspberry Pi 3</td>
-    <td>Raspberry Pi 3 Power Supply</td>
-    <td>3.5mm Audio Cable</td>
-    <td>Portable Speakers</td>
+    <td><a href="http://amzn.to/2p9RVhQ">Raspberry Pi 3</a></td>
+    <td><a href="https://amzn.to/2VcAPMk">RPi3 Power Supply</a></td>
+    <td><a href="https://amzn.to/2Vj7iAW">Audio Cable</a></td>
+    <td><a href="http://amzn.to/2pU2V1Y">Portable Speakers</a></td>
   </tr>
 </table>
 
