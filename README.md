@@ -2,7 +2,7 @@
 
 I have always wanted to have a centralized audio system for my home. Since my home is currently not wired for that, I decided to maky my own "wireless" centralized audio system using nothing but Raspberry Pi's and some {cheap} bluetooth speakers from amazon and leverage any old speakers lying at home that can be plugged into a 3.5mm audio jack. It works great, and I enjoy the whole house music system thoroughly. I documented all the steps that I did at my home, hoping it will come in handy for myself later, or to others who is thinking of doing the same.
 
-# Hardware Used:
+## Basic Hardware:
 
 <table>
   <tr>
