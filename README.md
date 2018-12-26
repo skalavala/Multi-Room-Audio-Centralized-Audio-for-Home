@@ -2,6 +2,27 @@
 
 I have always wanted to have a centralized audio system for my home. Since my home is currently not wired for that, I decided to maky my own "wireless" centralized audio system using nothing but Raspberry Pi's and some {cheap} bluetooth speakers from amazon and leverage any old speakers lying at home that can be plugged into a 3.5mm audio jack. It works great, and I enjoy the whole house music system thoroughly. I documented all the steps that I did at my home, hoping it will come in handy for myself later, or to others who is thinking of doing the same.
 
+# Hardware Used:
+
+<table>
+  <tr>
+    <td>
+<a href="http://amzn.to/2p9RVhQ"><img src="https://raw.githubusercontent.com/skalavala/skalavala.github.io/master/images/raspberry-pi3.jpg" alt="Raspberry Pi 3" /></a>
+    </td>
+    <td>
+<a href="https://amzn.to/2Vj7iAW"><img src="https://raw.githubusercontent.com/skalavala/skalavala.github.io/master/images/audio-cable.jpg" alt="3.5mm Audio Cable" /></a>
+    </td>
+    <td>
+<a href="http://amzn.to/2pU2V1Y"><img src="https://raw.githubusercontent.com/skalavala/skalavala.github.io/master/images/bluetooth-speaker.jpg" alt="Bluetooth Speakers" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Raspberry Pi 3</td>
+    <td>3.5mm Audio Cable</td>
+    <td>Portable Speakers</td>
+  </tr>
+</table>
+
 ## Software Components 
 I used Mopidy, Snapcast server and client software(s) to achieve this functionality. The Mopidy is just a media player, and the output of the mopidy is directed to a pipe, where the Snapcast server is listening to. When any audio/music content is streamed to that pipe, Snapcast server receives the media, and broascasts to all of it's clients (snapcast clients) accordingly.
 
