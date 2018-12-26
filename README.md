@@ -8,7 +8,7 @@ The following hardware is all you need in order to make your own WiFi based mult
 <table>
   <tr>
     <td>
-<a href="http://amzn.to/2p9RVhQ"><img src="https://raw.githubusercontent.com/skalavala/skalavala.github.io/master/images/raspberry-pi3.jpg" alt="Raspberry Pi 3" /></a>
+<a href="http://amzn.to/2p9RVhQ"><img src="https://raw.githubusercontent.com/skalavala/skalavala.github.io/master/images/rpi3.jpg" alt="Raspberry Pi 3" /></a>
     </td>
     <td>
 <a href="http://amzn.to/2p9RVhQ"><img src="https://raw.githubusercontent.com/skalavala/skalavala.github.io/master/images/rpi-power.jpg" alt="Raspberry Pi 3 power Supply" /></a>
