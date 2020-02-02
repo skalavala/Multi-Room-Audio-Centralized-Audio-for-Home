@@ -13,7 +13,7 @@ Note: If SSH is not enabled for any specific reason, you can enable by :
 
 Before making changed to the host configuration, it is always a good idea to properly shutdown the server. Make sure you the host is stopped before updating `.vmx` file, and **remember** to take a backup prior to making changes.
 
-To find out where all the `vmx` files are, run the following command in the CLI:
+To find out where all the `vmx` files are, run the following command in the CLI from the root folder:
 
 ```
 find . -type f -name "*.vmx"
